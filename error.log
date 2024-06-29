@@ -1,0 +1,12 @@
+
+ NX  Generating nx:connect-to-nx-cloud
+
+
+ NX   unable to get local issuer certificate
+
+Pass --verbose to see the stacktrace.
+
+
+(node:91436) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[33mThe CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
