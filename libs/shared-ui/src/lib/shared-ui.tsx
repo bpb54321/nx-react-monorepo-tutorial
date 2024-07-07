@@ -1,11 +1,7 @@
-import styles from './shared-ui.module.css';
-
-export function SharedUi() {
+export function SharedButton() {
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to SharedUi!</h1>
-    </div>
+    <button>Shared Button</button>
   );
 }
 
-export default SharedUi;
+export default SharedButton;
