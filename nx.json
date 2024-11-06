@@ -48,5 +48,9 @@
       }
     }
   },
-  "nxCloudAccessToken": "NWVhNjI5NzktMzQ4Zi00NDkxLWFlYzQtZjYwNDM4ZjE4NGNlfHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "NWVhNjI5NzktMzQ4Zi00NDkxLWFlYzQtZjYwNDM4ZjE4NGNlfHJlYWQtd3JpdGU=",
+  "release": {
+    "projects": ["*", "!*-e2e"],
+    "projectsRelationship": "independent"
+  }
 }
