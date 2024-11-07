@@ -6,6 +6,20 @@ export function Orders() {
     <div className={styles['container']}>
       <h1>Welcome to Orders!</h1>
       <SharedButton />
+      <h2>Order List</h2>
+      <ol>
+        <li>Toilet paper</li>
+        <li>Dish soap</li>
+        <li>Butter</li>
+        <li>Paper towels</li>
+      </ol>
+      <h2>Second Order List</h2>
+      <ol>
+        <li>Toilet paper</li>
+        <li>Dish soap</li>
+        <li>Butter</li>
+        <li>Paper towels</li>
+      </ol>
     </div>
   );
 }
