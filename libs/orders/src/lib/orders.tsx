@@ -25,6 +25,7 @@ export function Orders() {
         <li>Toilet paper</li>
         <li>Dish soap</li>
         <li>Butter</li>
+        <li>Paper towels</li>
       </ol>
     </div>
   );
