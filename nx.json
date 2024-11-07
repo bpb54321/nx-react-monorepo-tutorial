@@ -50,11 +50,7 @@
   },
   "nxCloudAccessToken": "NWVhNjI5NzktMzQ4Zi00NDkxLWFlYzQtZjYwNDM4ZjE4NGNlfHJlYWQtd3JpdGU=",
   "release": {
-    "projects": ["*", "!*-e2e"],
-    "projectsRelationship": "independent",
-    "changelog": {
-      "projectChangelogs": true
-    },
+    "projects": ["apps", "!*-e2e"],
     "version": {
       "conventionalCommits": true
     }
