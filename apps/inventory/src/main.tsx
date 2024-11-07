@@ -9,6 +9,8 @@ const root = ReactDOM.createRoot(
 // A comment in inventory.
 // Adding  a fix commit.
 // Comment for my-epic.
+// Comment for my-epic-2.
+// Another comment.
 root.render(
   <StrictMode>
     <App />
