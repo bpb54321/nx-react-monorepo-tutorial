@@ -7,6 +7,7 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 // A comment in inventory.
+// Adding  a fix commit.
 root.render(
   <StrictMode>
     <App />
