@@ -1,3 +1,14 @@
+## 1.1.1 (2024-11-07)
+
+
+### 🩹 Fixes
+
+- **inventory:** add a fix commit. ([c9962e6](https://github.com/bpb54321/nx-react-monorepo-tutorial/commit/c9962e6))
+
+### ❤️  Thank You
+
+- Brian Blosser
+
 ## 1.1.0 (2024-11-07)
 
 
