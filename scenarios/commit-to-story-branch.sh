@@ -27,4 +27,8 @@ git commit -am "Modify some code"
 echo "Text added." >> $README_PATH
 git commit -am "Modify some code"
 
+# push
+
+git push --set-upstream origin $BRANCH_NAME
+
 
