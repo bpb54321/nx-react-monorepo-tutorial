@@ -8,3 +8,4 @@
 - A bullet in the second story in inventory.
 - I dare say, is there a bug with inventory?
 - Yes, it involves and errant use of useEffect().
+Text added.
