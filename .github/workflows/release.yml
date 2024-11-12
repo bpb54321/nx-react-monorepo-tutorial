@@ -1,0 +1,23 @@
+name: Release Application
+on:
+  workflow_dispatch:
+env:
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.ACTION_TOKEN }}
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+      - name: Install Dependencies
+        run: npm ci
+      - name: Run NX Release
+        run: |
+          npx nx release --verbose --skip-publish
