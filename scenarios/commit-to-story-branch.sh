@@ -2,19 +2,24 @@
 
 # Check if the correct number of arguments is provided
 if [ "$#" -ne 2 ]; then
-    echo "Usage: $0 <story-number> <app-name>"
+    echo "Usage: $0 <story-number> <project-path>"
     exit 1
 fi
 
 # Assign arguments to variables
 STORY_NUMBER=$1
-APP_NAME=$2
+PROJECT_PATH=$2
 
 # Create the branch name
 BRANCH_NAME="story/my-story-$STORY_NUMBER"
 
 # Append text to the Readme file of the specified app
-README_PATH="apps/$APP_NAME/Readme.md"
+README_PATH="apps/$PROJECT_PATH/Readme.md"
+
+# Create epic branch
+# EPIC_BRANCH_NAME=epic/my-epic
+# git checkout -b $EPIC_BRANCH_NAME
+# git push --set-upstream origin $EPIC_BRANCH_NAME
 
 # Create story branch
 git checkout -b $BRANCH_NAME
