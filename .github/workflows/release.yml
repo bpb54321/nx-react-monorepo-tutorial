@@ -19,6 +19,6 @@ jobs:
         run: npm ci
       - name: Run NX Release
         run: |
-          git config --global user.email "github.action@fxinnovation.com"
+          git config --global user.email "github.action@github.com"
           git config --global user.name "Github Action"
           npx nx release --verbose --skip-publish
