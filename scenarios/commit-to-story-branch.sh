@@ -14,12 +14,12 @@ PROJECT_PATH=$2
 BRANCH_NAME="story/my-story-$STORY_NUMBER"
 
 # Append text to the Readme file of the specified app
-README_PATH="apps/$PROJECT_PATH/Readme.md"
+README_PATH="$PROJECT_PATH/Readme.md"
 
 # Create epic branch
-# EPIC_BRANCH_NAME=epic/my-epic
-# git checkout -b $EPIC_BRANCH_NAME
-# git push --set-upstream origin $EPIC_BRANCH_NAME
+EPIC_BRANCH_NAME=epic/my-epic
+git checkout -b $EPIC_BRANCH_NAME
+git push --set-upstream origin $EPIC_BRANCH_NAME
 
 # Create story branch
 git checkout -b $BRANCH_NAME
