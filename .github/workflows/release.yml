@@ -1,5 +1,8 @@
 name: Release Application
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 env:
   GITHUB_TOKEN: ${{ secrets.ADMIN_PAT }}
