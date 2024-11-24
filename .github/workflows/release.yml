@@ -15,6 +15,11 @@ jobs:
           cache: 'npm'
       - name: Install Dependencies
         run: npm ci
+      - name: Configure Git to Use PAT
+        env:
+          GH_PAT: ${{ secrets.ADMIN_PAT }}
+        run: |
+          git remote set-url origin https://${GH_PAT}@github.com/${{ github.repository }}.git
       - name: Run NX Release
         env:
           GH_TOKEN: ${{ secrets.ADMIN_PAT }}
