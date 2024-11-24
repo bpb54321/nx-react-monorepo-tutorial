@@ -17,7 +17,7 @@ jobs:
         run: npm ci
       - name: Run NX Release
         env:
-          GITHUB_TOKEN: ${{ secrets.ADMIN_PAT }}
+          GH_TOKEN: ${{ secrets.ADMIN_PAT }}
         run: |
           git config --global user.email "github.action@github.com"
           git config --global user.name "Github Action"
