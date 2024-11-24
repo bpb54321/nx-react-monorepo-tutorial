@@ -4,8 +4,8 @@ on:
     branches:
       - main
   workflow_dispatch:
-env:
-  GITHUB_TOKEN: ${{ secrets.ADMIN_PAT }}
+# env:
+#   GITHUB_TOKEN: ${{ secrets.ADMIN_PAT }}
 jobs:
   create-release:
     runs-on: ubuntu-latest
