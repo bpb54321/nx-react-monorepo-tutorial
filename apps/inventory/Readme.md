@@ -18,7 +18,9 @@
   Text added.
   Text added.
 
-// TODO: Check what happens when: did you try if there are changes but no "fix" or "feat"? does it do anything then?
+## What happens if there are changes but no "fix" or "feat"? does it do anything then?
+
+- Apparently no. There seems to have to be a commit with a conventional commit prefix which also has changes to the given project.
 
 An additional feature was added.
 
